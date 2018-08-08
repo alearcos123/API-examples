@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Studying API</title>
+  </head>
+  <body>
+  <h1>This is a Test to API:</h1>
+
+  <!-- Using this syntax: https://www.google.com/maps/embed/v1/#{_type}?key=#{ENV['GOOGLE_MAPS_KEY_FF']}&location=#{lat},#{lng}
+  and adding your API Key, present in the follow url (AIzaSyCS3cfxWkrKrL76zSyU_1zL4G9Jq1NM-nw&location=25.7833087,-80.2509776)
+  and the type (streetview)
+  and the location (like this one:25.7833087,-80.2509776) is getted from googlemaps, take two values after the @ and before the last comma,
+  take those values and put them in the url after location=, esta es la deseada coordenada de la address. -->
+
+
+  <iframe
+  width="600"
+  height="450"
+  frameborder="0" style="border:0"
+  src="https://www.google.com/maps/embed/v1/streetview?key=AIzaSyCS3cfxWkrKrL76zSyU_1zL4G9Jq1NM-nw&location=25.7833087,-80.2509776" allowfullscreen>
+  </iframe>
+
+
+  <iframe
+  width="600"
+  height="450"
+  frameborder="0" style="border:0"
+  src="https://www.google.com/maps/embed/v1/place?q=9460+Fontainebleau+Boulevard,+Miami,+Florida,+EE.+UU.&key=AIzaSyCS3cfxWkrKrL76zSyU_1zL4G9Jq1NM-nw" allowfullscreen>
+  </iframe>
+
+
+
+  </body>
+</html>
